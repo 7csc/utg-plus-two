@@ -1,0 +1,242 @@
+/* styles/Home.module.css */
+@media screen and (max-width: 768px) {
+  .table {
+      width: 100%;
+  }
+  .heading {
+      font-size: 2rem;
+  }
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 0 2rem;
+  }
+  
+  .heading {
+    color: var(--text-color);
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 100%;
+    max-width: 400px;
+    padding: 2rem;
+    border-radius: var(--border-radius);
+    box-shadow: var(--box-shadow);
+  }
+  
+  .label {
+    font-weight: bold;
+    color: var(--text-color);
+  }
+  
+  .input {
+    padding: 0.75rem;
+    border: 1px solid var(--input-border-color);
+    border-radius: var(--border-radius);
+    font-size: 1rem;
+  }
+  
+  #result {
+    margin-top: 2rem;
+    font-size: 1.2rem;
+    text-align: center;
+  }
+  
+  #result p {
+    margin: 0.5rem 0;
+  }
+  
+  
+  .sidebar {
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 200px;
+    background-color: #2c3e50;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .sidebar a {
+    color: #ecf0f1;
+    text-decoration: none;
+    font-size: 18px;
+    margin: 20px 0;
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+    transition: background-color 0.3s ease;
+  }
+  
+  .sidebar a:hover {
+    background-color: #34495e;
+  }
+  
+  .activeTab {
+    background-color: #1abc9c;
+    color: #ffffff;
+  }
+  
+  .content {
+    margin-left: 200px;
+    padding: 20px;
+    flex-grow: 1;
+    background-color: var(--background-color);
+    box-shadow: var(--box-shadow);
+    border-radius: var(--border-radius);
+  }
+  
+  .table {
+    width: 110%;
+    border-collapse: collapse;
+    margin: 10px auto;
+}
+
+  .table th {
+    background-color: var(--primary-color);
+    color: white;
+  }
+
+.counterButton {
+  display: inline-flex;
+  align-items: center;
+  margin: 0 5px;
+  padding: 5px 10px;
+  background-color: #1F7AB7;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.counterButton:hover {
+  background-color: #2980b9;
+}
+
+.counterButton:focus {
+  outline: 2px solid var(--primary-hover-color);
+}
+
+
+  .row {
+    display: table-row;
+  }
+  
+  .cell {
+    display: table-cell;
+    border: 0.2px solid #ddd;
+    padding: 12px;
+    text-align: center;
+    vertical-align: middle;
+}
+  
+  .button {
+    margin: 0 5px;
+    padding: 5px 10px;
+    background-color: #175A87;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .button:hover {
+    background-color: #2980b9;
+  }
+
+  .exportButton {
+    padding: 0.75rem 1.5rem;
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    border-radius: var(--border-radius);
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 20px;
+  }
+  
+  .exportButton:hover {
+    background-color: var(--primary-hover-color);
+  }
+
+  .spr_content {
+    width: 100%;
+    max-width: 800px;
+    padding: 20px;
+    margin: 20px auto;
+    flex-grow: 1;
+    background-color: var(--background-color);
+    box-shadow: var(--box-shadow);
+    border-radius: var(--border-radius);
+  }
+
+  .error {
+    color: #F8BFC2;
+    margin-top: 1rem;
+    text-align: center;
+  }
+
+  .spr_form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 100%;
+    max-width: 400px;
+    background: var(--background-color);
+    padding: 2rem;
+    border-radius: var(--border-radius);
+    box-shadow: var(--box-shadow);
+  }
+
+  .spr_field {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .spr_label {
+    flex: 0 0 120px;
+    color: var(--text-color);
+  }
+
+  .spr_input {
+    flex: 1;
+    padding: 0.75rem;
+    border: 1px solid var(--input-border-color);
+    border-radius: var(--border-radius);
+    font-size: 1rem;
+  }
+
+
+  .spr_button {
+    margin: 0 5px;
+    padding: 10px 10px;
+    background-color: #17547D;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .spr_button:hover {
+    background-color: #2980b9;
+  }
